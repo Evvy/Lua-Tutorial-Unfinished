@@ -1,5 +1,5 @@
 # Lua Tutorial
-## Table of contents
+# Table of contents
 =================
 
 <!--ts-->
@@ -43,19 +43,20 @@ Semicolons are generally used for multi-line statements, such as:
 a = 4; b = 3; c = a * b
 ```
 
-## Scopes (Local and Global):
+# Scopes:
+More on scopes, coming soon!
 
-Examples:
+## Local Scope:
 ```lua
 local x = 5
+```
+## Global Scope
+```lua
 global y = true
 ```
 Global scopes can also be written as ```y = true```, as this is the default syntax.
 
-More on scopes, coming soon!
-
-
-## Data Types:
+# Data Types:
 The type function gives the type name of a given value:
 
 print(type("Hello world"))  -- Returns string
@@ -89,7 +90,7 @@ local tellAnswer = simpleMath(2, 6, 6, 2)
 print(tellAnswer)
 ```
 
-## IF statements
+# IF statements
 Example:
 ```lua
 if (not b) then b = 3 end
@@ -101,7 +102,7 @@ In the example above parentheses are used to define a condition
 However, this is not required in lua, and can therefor be excluded if desired
 
 
-## Variable argument list
+# Variable argument list
 Example:
 ```lua
 local function simpleMath(a, b, c, d, ...)
