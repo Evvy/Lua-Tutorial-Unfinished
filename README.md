@@ -4,7 +4,13 @@ REMINDER! LUA IS CASE SENSITIVE!
 BUT! Lua is not as syntax sensitive.
 You can for instance include or exclude parentheses, commas and semi-colons as you may find it practical or fitting.
 ***************************************
-
+In most languages it is common to use semicolons to end of a statement, whether it's a variable or a function.
+```javascript
+var foo = 'bar';
+```
+```php
+$foo = 'bar';
+```
 Semi-colons can be included in the code, but is not required.
 Semi-colons are generally used for multi-line statements, such as:
 ```lua
