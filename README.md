@@ -1,9 +1,7 @@
 # Test
-***************************************
-REMINDER! LUA IS CASE SENSITIVE!
-BUT! Lua is not as syntax sensitive.
-You can for instance include or exclude parentheses, commas and semi-colons as you may find it practical or fitting.
-***************************************
+The lua interpreter is case sensitive. This means that identifier names containing lowercase letters will be treated as being different and separate from those containing uppercase letters.
+However lua is not as syntax sensitive as many other languages. You can for instance include or exclude parentheses, commas and semi-colons as you may find it practical or pleasing.
+
 In most languages it is common to use semicolons to end of a statement, whether it's a variable or a function.
 
 Example in Javascript:
