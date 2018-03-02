@@ -26,7 +26,7 @@ Semicolons are generally used for multi-line statements, such as:
 a = 4; b = 3; c = a * b
 ```
 
-### Scope types: Local and Global
+## Scope types: Local and Global
 
 Examples:
 ```lua
@@ -38,7 +38,7 @@ Global scopes can also be written as ```y = true```, as this is the default synt
 More on scopes, coming soon!
 
 
-### Data types:
+## Data types:
 The type function gives the type name of a given value:
 
 print(type("Hello world"))  -- Returns string
