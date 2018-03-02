@@ -174,11 +174,10 @@ the other variables into so-called dummy variables by using the underscore
 -- Colons after a table variables tells lua that the right-hand side of the variable
 -- contains a function call. Colons should therefor only be used in this context
 -- This will automatically generate a self-referecial variable to go inside the parameter
--- Example: print(choices:pop())
--- This is a replacement for: print(choices.pop(choices))
+Example: ```lua print(choices:pop())```
+This is a replacement for: ```lua print(choices.pop(choices))```
 
-
-Loops (for loop (2 types), )
+# Loops (for loop (2 types))
 For loop example:
 ```lua
 for startValue, endValue, stepValue do
