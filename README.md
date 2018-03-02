@@ -5,6 +5,17 @@ Table of contents
    * [Scopes](#scopes)
       * [Local Scope](#local-scope)
       * [Global Scope](#global-scope)
+    * [Data Types](#data-types)
+      * [Strings](#strings)
+      * [Booleans](#booleans)
+      * [Numbers](#numbers)
+      * [Nil](#nil)
+      * [Functions](#functions)
+      * [Tables](#tables)
+      * [Userdata and Threads](#userdata-and-threads)
+   * [Scopes](#scopes)
+      * [Local Scope](#local-scope)
+      * [Global Scope](#global-scope)
       
 The lua interpreter is case sensitive. This means that identifier names containing lowercase letters will be treated as being different and separate from those containing uppercase letters.
 However, lua is not as syntax sensitive as many other languages. You can for instance include or exclude parentheses, commas and semicolons as you may find it practical or pleasing.
@@ -47,6 +58,8 @@ global y = true
 Global scopes can also be written as ```y = true```, as this is the default syntax.
 
 # Data Types:
+More on data types, coming soon!
+
 The type function gives the type name of a given value:
 
 print(type("Hello world"))  -- Returns string
