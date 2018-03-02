@@ -1,4 +1,4 @@
-# Test
+# Lua Tutorial
 The lua interpreter is case sensitive. This means that identifier names containing lowercase letters will be treated as being different and separate from those containing uppercase letters.
 However, lua is not as syntax sensitive as many other languages. You can for instance include or exclude parentheses, commas and semicolons as you may find it practical or pleasing.
 
@@ -26,7 +26,7 @@ Semicolons are generally used for multi-line statements, such as:
 a = 4; b = 3; c = a * b
 ```
 
-Scope types: Local and Global
+###Scope types: Local and Global
 
 Examples:
 ```lua
@@ -38,7 +38,7 @@ Global scopes can also be written as ```y = true```, as this is the default synt
 More on scopes, coming soon!
 
 
-Data types:
+###Data types:
 The type function gives the type name of a given value:
 
 print(type("Hello world"))  -- Returns string
