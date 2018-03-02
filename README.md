@@ -5,17 +5,20 @@ BUT! Lua is not as syntax sensitive.
 You can for instance include or exclude parentheses, commas and semi-colons as you may find it practical or fitting.
 ***************************************
 In most languages it is common to use semicolons to end of a statement, whether it's a variable or a function.
+Example in Javascript:
 ```javascript
 function greetUser() {
   alert("Hello there!");
 }
+greetUser();
 ```
+Example in PHP:
 ```php
 <?php
 function greetUser() {
     echo "Hello there!";
 }
-greetUser(); // invokes the function
+greetUser();
 ?>
 ```
 Semi-colons can be included in the code, but is not required.
