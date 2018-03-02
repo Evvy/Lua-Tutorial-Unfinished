@@ -1,4 +1,5 @@
 # Lua Tutorial
+This tutorial is currently under development. Expect the information to change a lot as I work towards a final release.
 Table of contents
 =================
 
