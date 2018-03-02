@@ -1,5 +1,5 @@
 # Lua Tutorial
-Table of contents
+## Table of contents
 =================
 
 <!--ts-->
