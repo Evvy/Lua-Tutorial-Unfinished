@@ -3,7 +3,9 @@ Table of contents
 =================
 
 <!--ts-->
-   * [scopes](#scopes)
+   * [Scopes](#scopes)
+      * [Local Scope](#local-scope)
+      * [Global Scope](#global-scope)
    * [Table of contents](#table-of-contents)
    * [Installation](#installation)
    * [Usage](#usage)
