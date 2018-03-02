@@ -1,4 +1,21 @@
 # Lua Tutorial
+Table of contents
+=================
+
+<!--ts-->
+   * [scopes](#scopes)
+   * [Table of contents](#table-of-contents)
+   * [Installation](#installation)
+   * [Usage](#usage)
+      * [STDIN](#stdin)
+      * [Local files](#local-files)
+      * [Remote files](#remote-files)
+      * [Multiple files](#multiple-files)
+      * [Combo](#combo)
+      * [Auto insert and update TOC](#auto-insert-and-update-toc)
+   * [Tests](#tests)
+   * [Dependency](#dependency)
+<!--te-->
 The lua interpreter is case sensitive. This means that identifier names containing lowercase letters will be treated as being different and separate from those containing uppercase letters.
 However, lua is not as syntax sensitive as many other languages. You can for instance include or exclude parentheses, commas and semicolons as you may find it practical or pleasing.
 
