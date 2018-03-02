@@ -6,10 +6,17 @@ You can for instance include or exclude parentheses, commas and semi-colons as y
 ***************************************
 In most languages it is common to use semicolons to end of a statement, whether it's a variable or a function.
 ```javascript
-var foo = 'bar';
+function greetUser() {
+  alert("Hello there!");
+}
 ```
 ```php
-$foo = 'bar';
+<?php
+function greetUser() {
+    echo "Hello there!";
+}
+greetUser(); // invokes the function
+?>
 ```
 Semi-colons can be included in the code, but is not required.
 Semi-colons are generally used for multi-line statements, such as:
