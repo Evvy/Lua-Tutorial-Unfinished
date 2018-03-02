@@ -61,7 +61,7 @@ Global scopes can also be written as ```y = true```, as this is the default synt
 More on data types, coming soon!
 
 The type function gives the type name of a given value:
-
+```lua
 print(type("Hello world"))  -- Returns string
 print(type(10.4*3))         -- Returns number
 print(type(print))          -- Returns function
@@ -69,7 +69,7 @@ print(type(type))           -- Returns function
 print(type(true))           -- Returns boolean
 print(type(nil))            -- Returns nil (Same as null)
 print(type(type(X)))        -- Returns string
-
+```
 
 Creating functions (Two ways):
 First way: 
