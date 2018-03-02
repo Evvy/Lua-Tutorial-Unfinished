@@ -1,6 +1,6 @@
 # Test
 The lua interpreter is case sensitive. This means that identifier names containing lowercase letters will be treated as being different and separate from those containing uppercase letters.
-However lua is not as syntax sensitive as many other languages. You can for instance include or exclude parentheses, commas and semi-colons as you may find it practical or pleasing.
+However lua is not as syntax sensitive as many other languages. You can for instance include or exclude parentheses, commas and semicolons as you may find it practical or pleasing.
 
 In most languages it is common to use semicolons to end of a statement, whether it's a variable or a function.
 
@@ -32,23 +32,31 @@ Examples:
 local x = 5
 global y = true
 ```
-  global scopes can also be written as y = true, as this is default syntax
+global scopes can also be written as ```y = true```, as this is the default syntax.
 
 
--- Data types:
--- print(type("Hello world"))  --> string
--- print(type(10.4*3))         --> number
--- print(type(print))          --> function
--- print(type(type))           --> function
--- print(type(true))           --> boolean
--- print(type(nil))            --> nil (Same as null)
--- print(type(type(X)))        --> string
+Data types:
+The type function gives the type name of a given value:
+
+print(type("Hello world"))  -- Returns string
+print(type(10.4*3))         -- Returns number
+print(type(print))          -- Returns function
+print(type(type))           -- Returns function
+print(type(true))           -- Returns boolean
+print(type(nil))            -- Returns nil (Same as null)
+print(type(type(X)))        -- Returns string
 
 
--- Creating functions (Two ways):
--- 1st way: local tellName = function() end
--- end defines the end of a block
--- Invoking a function: tellName();
+Creating functions (Two ways):
+First way: 
+```lua
+local tellName = function() end
+```
+```end``` defines the end of a block
+To invoking the function, simply do: 
+```lua
+tellName();
+```
 -- To call a variable inside the function block, use the keyword return
 -- 2nd way: local function tellName() end
 -- Example of a function with stored value in a variable:
