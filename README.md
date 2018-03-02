@@ -1,21 +1,23 @@
 # Test
--- ***************************************
--- REMINDER! LUA IS CASE SENSITIVE!
--- BUT! Lua is not as syntax sensitive
--- You can for instance include or exclude
--- parentheses, commas and semi-colons as
--- you may find it practical or fitting
--- ***************************************
+***************************************
+REMINDER! LUA IS CASE SENSITIVE!
+BUT! Lua is not as syntax sensitive.
+You can for instance include or exclude parentheses, commas and semi-colons as you may find it practical or fitting.
+***************************************
 
--- Semi-colons can be included in the code, but is not required
--- Semi-colons are generally used for multi-line statements, such as:
--- a = 4; b = 3; c = a * b
+Semi-colons can be included in the code, but is not required.
+Semi-colons are generally used for multi-line statements, such as:
+```lua
+a = 4; b = 3; c = a * b
+```
 
--- Scope types: local and global
--- Examples:
-  -- local x = 5
-  -- global y = true
-  -- global scopes can also be written as y = true, as this is default syntax
+Scope types: local and global
+Examples:
+```lua
+local x = 5
+global y = true
+```
+  global scopes can also be written as y = true, as this is default syntax
 
 
 -- Data types:
@@ -140,7 +142,7 @@ for i = i, 10, i do
   -- do something
 end
 ```
-The ```i``` in this case does not have to be made local as it is already local to the for loop
-If you exclude the stepValue it will be set to 1 as default
+The ```i``` in this case does not have to be made local as it is already local to the for loop.
+If you choose to exclude the stepValue, it will be set to 1 as default.
 Generic for loop:
 
