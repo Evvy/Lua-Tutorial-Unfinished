@@ -54,11 +54,13 @@
 
 -- Variable argument list
 -- Example:
--- local function simpleMath(a, b, c, d, ...)
---   local a, b, c, d = ...
---   local answer = (a * b) + (c / d)
---   return answer
--- end
+```lua
+local function simpleMath(a, b, c, d, ...)
+  local a, b, c, d = ...
+  local answer = (a * b) + (c / d)
+  return answer
+end
+```
 -- print(simpleMath(2, 6, 6, 2, 3))
 -- In the example above, the first 4 values will be designated to their matching arguments
 -- However the 5th argument will be stored in the argument list for later use
