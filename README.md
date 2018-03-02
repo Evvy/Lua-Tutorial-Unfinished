@@ -20,8 +20,8 @@ function greetUser() {
 greetUser();
 ?>
 ```
-Semi-colons can be included in the code, but is not required.
-Semi-colons are generally used for multi-line statements, such as:
+In Lua, semicolons can be included in the code, but is **not** required.
+Semicolons are generally used for multi-line statements, such as:
 ```lua
 a = 4; b = 3; c = a * b
 ```
@@ -32,7 +32,7 @@ Examples:
 local x = 5
 global y = true
 ```
-global scopes can also be written as ```y = true```, as this is the default syntax.
+Global scopes can also be written as ```y = true```, as this is the default syntax.
 
 
 Data types:
