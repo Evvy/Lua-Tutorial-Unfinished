@@ -125,18 +125,22 @@ end
 -- This is a replacement for: print(choices.pop(choices))
 
 
--- Loops (for loop (2 types), )
--- For loop example:
--- for startValue, endValue, stepValue do
---   -- do something
--- end
--- In this case startValue, endValue, stepValue can be viewd as arguments/parameters
--- The to to execute will be placed between the do and end (start and stop points of the block)
--- Numeric for loop: the startValue, endValue and stepValue have to be connected to a variable
--- for i = i, 10, i do
---   -- do something
--- end
--- The 'i' in this case does not have to be made local as it is already local to the for loop
--- If you exclude the stepValue it will be set to 1 as default
--- Generic for loop:
--- 
+Loops (for loop (2 types), )
+For loop example:
+```lua
+for startValue, endValue, stepValue do
+  -- do something
+end
+```
+In this case startValue, endValue, stepValue can be viewd as arguments/parameters
+The to to execute will be placed between the do and end (start and stop points of the block)
+Numeric for loop: the startValue, endValue and stepValue have to be connected to a variable
+```lua
+for i = i, 10, i do
+  -- do something
+end
+```
+The 'i' in this case does not have to be made local as it is already local to the for loop
+If you exclude the stepValue it will be set to 1 as default
+Generic for loop:
+
