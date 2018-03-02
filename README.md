@@ -150,32 +150,38 @@ the other variables into so-called dummy variables by using the underscore
 -- To access the class of warrior do: choices.class
 
 
--- Pop/Push and Stacks
--- Stacks are abstract datatypes that contains indexes like a stack of books.
--- Pop removes the top data block from the stack.
--- Push puts a new data block on top of the stack.
--- Example:
--- local choices = {
---   push = function(self, arg)
---     local n = #self
---     self[n + 1] = arg
---   end,
---
---   pop = function(self)
---     local n = #self
---     if (n > 0) then
---       local rtn = self[n]
---       self[n] = nil
---       return rtn
---     end
---   end
--- }
+# Pop/Push and Stacks
+Stacks are abstract datatypes that contains indexes like a stack of books.
+Pop removes the top data block from the stack.
+Push puts a new data block on top of the stack.
+Example:
+local choices = {
+  push = function(self, arg)
+    local n = #self
+    self[n + 1] = arg
+  end,
 
--- Colons after a table variables tells lua that the right-hand side of the variable
--- contains a function call. Colons should therefor only be used in this context
--- This will automatically generate a self-referecial variable to go inside the parameter
-Example: ```lua print(choices:pop())```
-This is a replacement for: ```lua print(choices.pop(choices))```
+  pop = function(self)
+    local n = #self
+    if (n > 0) then
+      local rtn = self[n]
+      self[n] = nil
+      return rtn
+    end
+  end
+}
+
+Colons after a table variables tells lua that the right-hand side of the variable
+contains a function call. Colons should therefor only be used in this context
+This will automatically generate a self-referecial variable to go inside the parameter
+Example: 
+```lua
+print(choices:pop())
+```
+This is a replacement for: 
+```lua
+print(choices.pop(choices))
+```
 
 # Loops (for loop (2 types))
 For loop example:
