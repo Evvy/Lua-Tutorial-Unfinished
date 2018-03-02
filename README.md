@@ -26,7 +26,7 @@ Semicolons are generally used for multi-line statements, such as:
 a = 4; b = 3; c = a * b
 ```
 
-## Scope types: Local and Global
+## Scopes (Local and Global):
 
 Examples:
 ```lua
@@ -38,7 +38,7 @@ Global scopes can also be written as ```y = true```, as this is the default synt
 More on scopes, coming soon!
 
 
-## Data types:
+## Data Types:
 The type function gives the type name of a given value:
 
 print(type("Hello world"))  -- Returns string
@@ -60,41 +60,45 @@ To invoking the function, simply do:
 ```lua
 tellName();
 ```
--- To call a variable inside the function block, use the keyword return
--- 2nd way: local function tellName() end
--- Example of a function with stored value in a variable:
--- local function simpleMath(a, b, c, d)
---   local answer = (a * b) + (c / d)
---   return answer
--- end
--- local tellAnswer = simpleMath(2, 6, 6, 2)
--- print(tellAnswer)
+To call a variable inside the function block, use the keyword return
+2nd way: local function tellName() end
+Example of a function with stored value in a variable:
+```lua
+local function simpleMath(a, b, c, d)
+  local answer = (a * b) + (c / d)
+  return answer
+end
+local tellAnswer = simpleMath(2, 6, 6, 2)
+print(tellAnswer)
+```
+
+## IF statements
+Example:
+```lua
+if (not b) then b = 3 end
+Alternative:
+```lua
+b = b or 3
+```
+In the example above parentheses are used to define a condition
+However, this is not required in lua, and can therefor be excluded if desired
 
 
--- IF statements
--- Example:
--- if (not b) then b = 3 end
--- Alternative:
--- b = b or 3
--- In the example above parentheses are used to define a condition
--- However, this is not required in lua, and can therefor be excluded if desired
-
-
--- Variable argument list
--- Example:
+## Variable argument list
+Example:
 ```lua
 local function simpleMath(a, b, c, d, ...)
   local a, b, c, d = ...
   local answer = (a * b) + (c / d)
   return answer
 end
+print(simpleMath(2, 6, 6, 2, 3))
 ```
--- print(simpleMath(2, 6, 6, 2, 3))
--- In the example above, the first 4 values will be designated to their matching arguments
--- However the 5th argument will be stored in the argument list for later use
--- If you wanted to only use the variable c for instance, you could convert
--- the other variables into so-called dummy variables by using the underscore
--- Example: local _, _, c, _ = ...
+In the example above, the first 4 values will be designated to their matching arguments
+However the 5th argument will be stored in the argument list for later use
+If you wanted to only use the variable c for instance, you could convert
+the other variables into so-called dummy variables by using the underscore
+```Example: ```lualocal _, _, c, _ = ...``````
 -- Using the select function:
 -- local f, g, h, i = select(7, ...)
 -- This would get the 7th element of an argument list and store it into the variable f
