@@ -26,13 +26,16 @@ Semicolons are generally used for multi-line statements, such as:
 a = 4; b = 3; c = a * b
 ```
 
-Scope types: local and global
+Scope types: Local and Global
+
 Examples:
 ```lua
 local x = 5
 global y = true
 ```
 Global scopes can also be written as ```y = true```, as this is the default syntax.
+
+More on scopes, coming soon!
 
 
 Data types:
