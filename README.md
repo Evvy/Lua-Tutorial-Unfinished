@@ -50,15 +50,13 @@ a = 4; b = 3; c = a * b
 # Introduction to Lua
 Hello world:
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| ```lua print('Hello world') ```  | Content Cell  |
-| Content Cell  | Content Cell  |
+| First Header  |
+| ------------- |
+| print("Hello World")  | Returns/prints Hello World
+| print('Hello World') | Returns/prints Hello World
+| print "Hello World" | Returns/prints Hello World
+| print 'Hello World' | Returns/prints Hello World
 
-| Command | Description |
-| --- | --- |
-| print('Hello world') | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
 
 # Scopes:
 More on scopes, coming soon!
