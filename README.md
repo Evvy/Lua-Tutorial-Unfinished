@@ -50,8 +50,8 @@ a = 4; b = 3; c = a * b
 # Introduction to Lua
 Hello world:
 
-| First Header  |
-| ------------- |
+| Input  | Output |
+| ------------- | ------------- |
 | print("Hello World")  | Returns/prints Hello World
 | print('Hello World') | Returns/prints Hello World
 | print "Hello World" | Returns/prints Hello World
