@@ -49,6 +49,7 @@ a = 4; b = 3; c = a * b
 
 # Introduction to Lua
 Hello world:
+
 | First Header  | Second Header |
 | ------------- | ------------- |
 | print('Hello world')  | Content Cell  |
