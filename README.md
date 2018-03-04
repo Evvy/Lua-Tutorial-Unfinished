@@ -68,6 +68,15 @@ An argument is a value that is passed to a function. A function takes the value(
 If a function only takes ONE argument you can choose to exclude the use of parenthesis as shown above, otherwise parenthesis must be included.
 The reason for this is simple: the Lua interpreter notices that there is a value attacked to the function but can't determine in what order it comes and otherwise how to handle it. If you feed it with one argument only, it doesn't have to figure out how to interpreter it.
 
+Still don't get it?
+Picture this: 
+
+A kid gets one task, to kick a ball. You on other hand want this kid to kick a red ball specifically.
+You give the kid a black, white and a red ball. The odds of the kid kicking the red ball is 33,333%.
+You persist in the idea of the kid kicking the red ball. 
+If you were to remove the black and white ball, you would achieve this as the chance of the kick hitting your exact ball would be 100%.
+The same goes for the beforementioned example. To avoid confusion you provide the function with one argument.
+
 # Scopes:
 More on scopes, coming soon!
 
