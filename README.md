@@ -51,7 +51,7 @@ a = 4; b = 3; c = a * b
 Hello world:
 | First Header  | Second Header |
 | ------------- | ------------- |
-| ```lua print('Hello world')```  | Content Cell  |
+| lua print('Hello world')  | Content Cell  |
 | Content Cell  | Content Cell  |
 
 # Scopes:
