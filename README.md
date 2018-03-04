@@ -49,9 +49,10 @@ a = 4; b = 3; c = a * b
 
 # Introduction to Lua
 Hello world:
-Table 1 | Table 2
------------------
-```lua print('Hello world')``` | Hey
+| First Header  | Second Header |
+| ------------- | ------------- |
+| ```lua print('Hello world')```  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 # Scopes:
 More on scopes, coming soon!
