@@ -47,6 +47,12 @@ Semicolons are generally used for multi-line statements, such as:
 a = 4; b = 3; c = a * b
 ```
 
+# Introduction to Lua
+Hello world:
+Table 1 | Table 2
+-----------------
+```lua print('Hello world')``` | Hey
+
 # Scopes:
 More on scopes, coming soon!
 
