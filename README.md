@@ -57,6 +57,9 @@ Hello world:
 | print "Hello World" | Returns Hello World |
 | print 'Hello World' | Returns Hello World |
 
+functionName(argument1, argument2, _, argumentN)
+func(arg1, arg2, _, argn)
+
 
 # Scopes:
 More on scopes, coming soon!
