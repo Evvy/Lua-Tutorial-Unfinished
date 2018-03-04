@@ -66,7 +66,7 @@ func(arg1, arg2, _, argn)
 
 An argument is a value that is passed to a function. A function takes the value(s) that are passed to it and does something with it.
 If a function only takes ONE argument you can choose to exclude the use of parenthesis as shown above, otherwise parenthesis must be included.
-The reason for this is simple: the Lua interpreter notices that there is a value attacked to the function but can't determine in what order it comes and otherwise how to handle it. If you feed it with one argument only, it doesn't have to figure out how to interpreter it.
+The reason for this is simple: the Lua interpreter notices that there is a value attached to the function but can't determine in what order it comes and otherwise how to handle it. If you feed it with one argument only, it doesn't have to figure out how to interpreter it.
 
 Still don't get it?
 Picture this: 
