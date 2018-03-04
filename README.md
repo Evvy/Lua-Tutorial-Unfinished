@@ -52,10 +52,10 @@ Hello world:
 
 | Input  | Output |
 | ------------- | ------------- |
-| print("Hello World")  | Returns/prints Hello World
-| print('Hello World') | Returns/prints Hello World
-| print "Hello World" | Returns/prints Hello World
-| print 'Hello World' | Returns/prints Hello World
+| print("Hello World")  | Returns Hello World |
+| print('Hello World') | Returns Hello World |
+| print "Hello World" | Returns Hello World |
+| print 'Hello World' | Returns Hello World |
 
 
 # Scopes:
