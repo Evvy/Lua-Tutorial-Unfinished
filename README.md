@@ -77,6 +77,40 @@ You persist in the idea of the kid kicking the red ball.
 If you were to remove the black and white ball, you would achieve this as the chance of the kick hitting your exact ball would be 100%.
 The same goes for the beforementioned example. To avoid confusion you provide the function with one argument.
 
+Lua uses an imperative paradigm, meaning the file is executed line by line. The execution of a Lua script starts in the first line of your file, unlike other programming languages such as Java.
+
+```lua
+function factorial(n)
+  if n == 0 then
+    return 1
+  else
+    return n * factorial(n - 1)
+  end
+end
+
+function factorial(6)
+  if 6 == 0 then
+    return 1
+  else
+    return 6 * factorial(6-1)
+  end
+end
+```
+
+```lua
+function factorial(n)
+  if n == 0 then
+    return 1
+  else
+    return n * factorial(n - 1)
+  end
+end
+
+for i = 1, 10 do
+  print(factorial(i))
+end
+```
+
 # Scopes:
 More on scopes, coming soon!
 
