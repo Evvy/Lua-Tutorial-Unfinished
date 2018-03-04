@@ -54,6 +54,11 @@ Hello world:
 | lua print('Hello world')  | Content Cell  |
 | Content Cell  | Content Cell  |
 
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
 # Scopes:
 More on scopes, coming soon!
 
