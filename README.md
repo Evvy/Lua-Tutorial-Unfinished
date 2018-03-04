@@ -52,7 +52,7 @@ Hello world:
 
 | First Header  | Second Header |
 | ------------- | ------------- |
-| ```lua print('Hello world')```  | Content Cell  |
+| ```lua print('Hello world') ```  | Content Cell  |
 | Content Cell  | Content Cell  |
 
 | Command | Description |
